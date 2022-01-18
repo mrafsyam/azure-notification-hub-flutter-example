@@ -3,9 +3,11 @@
 A demo Flutter App (Android only) to receive in-App notification from Azure Notification Hub
 
 This project uses this package (https://pub.dev/packages/azure_notificationhubs_flutter) but the repository was missing or deleted. 
-So I had to find a fork and clone one here : https://github.com/mrafsyam/azure-notification-hub-flutter-example
+So I had to find a fork and cloned one here : https://github.com/mrafsyam/azure-notification-hub-flutter-example. Credit to the original author - tried to email but it bounced back :-/
 
-This App restricts the format of the Notification. See item #7 below.
+This App restricts the format of the Notification payload, otherwise NPE will be thrown. See item #7 below.
+Therefore, it is not meant to be used with the Firebase Console notification test.
+You should use the Azure Notification Hub for this.
 
 ## Getting Started
 
@@ -23,11 +25,11 @@ This App restricts the format of the Notification. See item #7 below.
 
 7. Fire a notification via Azure Portal > Notification Hub > Support & Troubleshoting > Test Send.
 The format needs to be in the following 
-
+```
 {
     "data":{
         "title":"Notification Hub Test Notification",
         "body":"This is a sample notification delivered by Azure Notification Hubs."
-        }
+     }
 }
-
+```
