@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874718384255",
+    "project_id": "azure-notifcation-hub-poc",
+    "storage_bucket": "azure-notifcation-hub-poc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874718384255:android:8957dc1612a184c54faf4a",
+        "android_client_info": {
+          "package_name": "org.kemaman.azure_notification_hub_poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874718384255-2q03lc9l97lfuks3krk9jcah45f0g0g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp1mglfbTicmbtNL6wzA49PH3VE5uxyvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874718384255-2q03lc9l97lfuks3krk9jcah45f0g0g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
