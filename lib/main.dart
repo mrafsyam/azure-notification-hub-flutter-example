@@ -16,6 +16,11 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+    _anh.configure(
+        onMessage: (Map<String, dynamic> message) async {
+          print("onMessage: $message");
+        }
+    );
   }
 
   @override
